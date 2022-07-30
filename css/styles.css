@@ -262,15 +262,43 @@ button{
    margin-top: 0;
    margin-bottom: 0;
    justify-content: center;
+   text-decoration: none;
 
 }
 .item-activity{
     list-style: none;
+    text-decoration: none;
 }
 .item-activity:not(:last-child){
     margin-right: 30px;
 }
-
+.link-activity{
+    text-decoration: none;
+}
+.overlay-wrapper{
+    position: relative;
+    
+}
+.text-wrapper{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+    background: rgba(47, 48, 58, 0.8);
+    font-family: var(--primary-font);
+    font-weight: var(--bold-font);
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    
+}
 
 /* Команда */
 .teams{
